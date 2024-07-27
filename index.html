@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Streaming App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Music Streaming App</h1>
+    </header>
+    <main>
+        <div class="playlist">
+            <h2>Playlist</h2>
+            <ul id="songList">
+                <li data-file="song1.mp3">Song 1</li>
+                <li data-file="song2.mp3">Song 2</li>
+                <li data-file="song3.mp3">Song 3</li>
+            </ul>
+        </div>
+        <div class="player">
+            <audio id="audioPlayer" controls>
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
